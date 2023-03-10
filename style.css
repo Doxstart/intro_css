@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Orbitron:wght@400;600;900&display=swap');
+
+h1{
+    background-color: -webkit-box-shadow: 36px 90px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 36px 90px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 36px 90px 8px 0px rgba(0,0,0,0.75);
+    font-family: 'Megrim', cursive;
+}
+
+body{
+    background-color: rgb(119, 145, 216);
+    font-family: 'Orbitron', sans-serif ;
+}
+
+a{
+    background-color: crimson;
+}
+
+.text-content{
+    font-size: xx-large;
+}
+
+.title-content{
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+#titolo-principale{
+    color: gold;
+}
+
+h4, h5{
+    color: green;
+}
+
+p a{
+    color: white;
+}
+
+.titolone{
+    width: 50%;
+    height: 500px;
+}
+
+.mamma{
+    background-color: darkorange;
+    width: 50%;
+    height: 50%;
+}
+
+.figlia{
+    width: 50%;
+    min-width: 200px;
+    height: 50px;
+    overflow: scroll;
+}
+
+.primo{
+    background-color: aqua;
+    padding: 18px;
+}
+
+.secondo{
+    background-color: chartreuse;
+    margin: 20px 60px ;
+}
+
+.terzo{
+    /* border-style: solid;
+    border-color: palevioletred;
+    border-width: 40px; */
+    height: 400px;
+    width: 800px;
+    border: solid 8px chocolate;
+    /* border-top-left-radius: 30px; */
+    border-radius: 30px 100px 2px 200px;
+    background-image: url(./assets/ranavetro.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.quarto{
+    background-color: rgb(245,244,249);
+    background: radial-gradient(circle, rgba(245,244,249,1) 8%, rgba(6,5,85,1) 95%);;
+    display: inline-block;
+    color: white;
+    width: 300px;
+    height: 300px;
+}
+
+.quinto{
+    background-color: violet;
+    display: inline;
+    color: rgb(173, 210, 221);
+}
